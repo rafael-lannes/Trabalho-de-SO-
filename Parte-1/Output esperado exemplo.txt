@@ -1,0 +1,37 @@
+Aqui vai um exemplo de saída do trabalho parte 1:
+
+Com 5 Threads:
+
+Insira a quantidade de threads que deseja criar:
+5
+Eu sou thread 1 e meu ID(pthread_self) é 3075414848 e meu ID (gettid) é 28402 
+Eu sou thread 2 e meu ID(pthread_self) é 3075414848 e meu ID (gettid) é 28403 
+Eu sou thread 3 e meu ID(pthread_self) é 3075414848 e meu ID (gettid) é 28404 
+Eu sou thread 4 e meu ID(pthread_self) é 3075414848 e meu ID (gettid) é 28405 
+Eu sou thread 5 e meu ID(pthread_self) é 3075414848 e meu ID (gettid) é 28406 
+
+Com 20 Threads:
+
+Insira a quantidade de threads que deseja criar:
+20
+Eu sou thread 1 e meu ID(pthread_self) é 3076053824 e meu ID (gettid) é 28433 
+Eu sou thread 2 e meu ID(pthread_self) é 3076053824 e meu ID (gettid) é 28434 
+Eu sou thread 3 e meu ID(pthread_self) é 3076053824 e meu ID (gettid) é 28435 
+Eu sou thread 4 e meu ID(pthread_self) é 3076053824 e meu ID (gettid) é 28436 
+Eu sou thread 5 e meu ID(pthread_self) é 3076053824 e meu ID (gettid) é 28437 
+Eu sou thread 6 e meu ID(pthread_self) é 3076053824 e meu ID (gettid) é 28438 
+Eu sou thread 7 e meu ID(pthread_self) é 3076053824 e meu ID (gettid) é 28439 
+Eu sou thread 8 e meu ID(pthread_self) é 3076053824 e meu ID (gettid) é 28440 
+Eu sou thread 9 e meu ID(pthread_self) é 3076053824 e meu ID (gettid) é 28441 
+Eu sou thread 10 e meu ID(pthread_self) é 3076053824 e meu ID (gettid) é 28442 
+Eu sou thread 11 e meu ID(pthread_self) é 3076053824 e meu ID (gettid) é 28443 
+Eu sou thread 12 e meu ID(pthread_self) é 3076053824 e meu ID (gettid) é 28444 
+Eu sou thread 13 e meu ID(pthread_self) é 3076053824 e meu ID (gettid) é 28445 
+Eu sou thread 14 e meu ID(pthread_self) é 3076053824 e meu ID (gettid) é 28446 
+Eu sou thread 15 e meu ID(pthread_self) é 3076053824 e meu ID (gettid) é 28447 
+Eu sou thread 16 e meu ID(pthread_self) é 3076053824 e meu ID (gettid) é 28448 
+Eu sou thread 17 e meu ID(pthread_self) é 3076053824 e meu ID (gettid) é 28449 
+Eu sou thread 18 e meu ID(pthread_self) é 3076053824 e meu ID (gettid) é 28450 
+Eu sou thread 19 e meu ID(pthread_self) é 3076053824 e meu ID (gettid) é 28451 
+Eu sou thread 20 e meu ID(pthread_self) é 3076053824 e meu ID (gettid) é 28452 
+
