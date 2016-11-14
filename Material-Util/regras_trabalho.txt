@@ -1,0 +1,31 @@
+***PARA QUEM OPTAR POR TRABALHO DE IMPLEMENTAÇÃO********
+
+1 - Grupos compostos por 4 integrantes.
+
+2 - Cada grupo deverá enviar um email para rguerra@ic.uff.br informando (quem não obedecer perde um ponto):
++ o nome completo de cada integrante
++ número de matrícula e email de cada um dos integrantes
++ prazo para enviar este email é FIM DE SETEMBRO.
+
+3 - Mudanças de grupo serão aceitas apenas caso integrantes originais abandonem a disciplina e deverão ser notificadas antes da entrega do trabalho.
+
+4 - Os códigos fontes, executáveis (compilados com gcc no linux) e a linha de comando utilizada para compilar o programa deverão ser enviados por e-mail até o dia 25 DE NOVEMBRO.
+
+5 - Os trabalhos serão apresentados na minha sala no dia 02 DE DEZEMBRO. Cada grupo receberá um slot de 15min que será enviado por email. 
+
+6 - Eu olharei o código com o grupo e avaliarei o programa sendo compilado e rodando. Estejam preparados, pois a nota dependerá da qualidade da apresentação.
++ NÃO SE ATRASEM!!! 15min é pouco tempo.
++ A NOTA SERÁ INDIVIDUAL, E CADA INTEGRANTE DO GRUPO DEVERÁ CONHECER O CÓDIGO TODO.
+
+
+****PARA QUEM OPTAR POR TRABALHO ESCRITO**********
+
+1 - Trabalho individual.
+
+2 - O trabaho deverá ser feito em Latex, Word ou Openoffice Writer (template no site). Se o formato não for obedecido, perderá metade dos pontos.
+
+3 - O trabalho deve conter no mínimo 20 páginas, 80% de texto e possuir referências. 
+
+4 - Temas no site (escolha via sorteio para os que optarem por esse trabalho). Prazo para enviar email informando optar por trabalho individual escrito é FIM DE SETEMBRO.
+
+5 - Os trabalhos serão enviados por email (no caso do latex, enviar pdf e fontes) até o dia 02 DE DEZEMBRO. Trabalho feito em latex ganhará um ponto extra.
