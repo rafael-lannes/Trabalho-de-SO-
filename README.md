@@ -26,9 +26,3 @@ I wrote this problem when a friend of mine left her position teaching physics at
 • There cannot be men and women in the bathroom at the same time.
 • There should never be more than three employees squandering company time in the bathroom.
 
-#　　　　/)─―ヘ/) 
-#　　＿／　　　　＼ 
-#　／　　　　●　　●丶 
-#｜　　　　　　　▼　| 
-#｜　　　　　　　亠ノ 　 
-#U￣U￣￣￣￣U￣
