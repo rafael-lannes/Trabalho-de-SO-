@@ -4,7 +4,7 @@
 #include <time.h>
 #include <pthread.h>
 #include <semaphore.h>
-#define RAND_MAX 6
+
 
 void *male(void *);
 void *female(void *);
@@ -18,6 +18,7 @@ sem_t female_multiplex;                     /* limits # of women in the bathroom
 int female_counter = 0;                     /* # of women in bathroom or waiting*/
 
 void *male(void *param){
+    int r=rand()%10;
 
     sem_wait(&male_mutex);
     male_counter++;
@@ -28,7 +29,8 @@ void *male(void *param){
 
     sem_wait(&male_multiplex);               /* limit # of people in the bathroom*/
     printf("Rapaz entrou!\n");
-    sleep(2);
+    printf("Ele ficara %d segundos no banheiro. \n",r);
+    sleep(r);
     printf("Rapaz Saiu!\n");
     sem_post(&male_multiplex);              /* let the next one in*/
 
@@ -41,6 +43,7 @@ void *male(void *param){
 }
 
 void *female(void *param){
+    int r=rand()%10;
 
     sem_wait(&female_mutex);
     female_counter++;
@@ -51,7 +54,8 @@ void *female(void *param){
 
     sem_wait(&female_multiplex);               /* limit # of people in the bathroom*/
     printf("Moça entrou!\n");
-    sleep(2);
+    printf("Ela ficara %d segundos no banheiro. \n",r);
+    sleep(r);
     printf("Moça saiu!\n");
     sem_post(&female_multiplex);              /* let the next one in*/
 
