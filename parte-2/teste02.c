@@ -6,21 +6,22 @@
 #include <semaphore.h>
 
 
-void *male(void *);
+void *male(void *);                         /*Declaração das funções dos rapazes e moças*/
 void *female(void *);
 
-sem_t empty;                                /*controls access to the bathroom*/
+sem_t empty;                                /*Semaforo do banheiro 0 vazio e 1 ocupado*/
 sem_t male_mutex;                           /* mutex for male_counter*/
-sem_t male_multiplex;                       /* limits # of men in the bathroom*/
-int male_counter = 0;                       /* # of men in bathroom or waiting*/
+sem_t male_multiplex;                       /* limita o numero de rapazes no banheiro*/
+int male_counter = 0;                       /* numero de rapazes no banheiro ou esperando*/
 sem_t female_mutex;                         /* mutex for female_counter*/
-sem_t female_multiplex;                     /* limits # of women in the bathroom*/
-int female_counter = 0;                     /* # of women in bathroom or waiting*/
-sem_t turnstile;
+sem_t female_multiplex;                     /* limits o numero de moças no banheiro*/
+int female_counter = 0;                     /* numero de moças no banheiro ou esperando*/
+sem_t turnstile;                            /* Semáforo para limitar outras threads e resolver starvation*/
 
 void *male(void *param){
     int r=rand()%10;
     sem_wait(&turnstile);
+    printf("Um rapaz é o proximo.\n");
     sem_wait(&male_mutex);
     male_counter++;
     if(male_counter == 1){
@@ -48,6 +49,7 @@ void *male(void *param){
 void *female(void *param){
     int r=rand()%10;
     sem_wait(&turnstile);
+    printf("Uma moça é a proxima.\n");
     sem_wait(&female_mutex);
     female_counter++;
     if(female_counter == 1){
