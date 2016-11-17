@@ -9,7 +9,7 @@
 void *male(void *);
 void *female(void *);
 
-sem_t empty;                                /*controls access to the bathroom*/
+sem_t empty;                                /* controls access to the bathroom*/
 sem_t male_mutex;                           /* mutex for male_counter*/
 sem_t male_multiplex;                       /* limits # of men in the bathroom*/
 int male_counter = 0;                       /* # of men in bathroom or waiting*/
