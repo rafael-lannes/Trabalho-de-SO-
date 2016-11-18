@@ -26,3 +26,30 @@ I wrote this problem when a friend of mine left her position teaching physics at
 • There cannot be men and women in the bathroom at the same time.
 • There should never be more than three employees squandering company time in the bathroom.
 
+Regras:
+1 - Grupos compostos por 4 integrantes.
+2 - Cada grupo deverב enviar um email para rguerra@ic.uff.br informando:
++ o nome completo de cada integrante
++ nתmero de matrםcula e email de cada um dos integrantes
++ prazo para enviar este email י FIM DE SETEMBRO.
+
+3 - Mudanças de grupo serדo aceitas apenas caso integrantes originais abandonem a disciplina e deverדo ser notificadas antes da entrega do trabalho.
+
+4 - Os cףdigos fontes, executבveis (compilados com gcc no linux) e a linha de comando utilizada para compilar o programa deverדo ser enviados por e-mail atי o dia 25 DE NOVEMBRO.
+
+5 - Os trabalhos serדo apresentados na minha sala no dia 02 DE DEZEMBRO. Cada grupo receberב um slot de 15min que serב enviado por email. 
+
+6 - Eu olharei o código com o grupo e avaliarei o programa sendo compilado e rodando. Estejam preparados, pois a nota dependerב da qualidade da apresentaחדo.
++ NֳO SE ATRASEM!!! 15min é pouco tempo.
++ A NOTA SERֱÁ INDIVIDUAL, E CADA INTEGRANTE DO GRUPO DEVERֱ CONHECER O CÓDIGO TODO.
+
+
+
+Apresentação: 20:00h
+
+Grupo:
+Rafael de Farias Lannes 
+Patrícia Martins Rocca Crestani 
+Nicolas Nascimento Atmatzides
+No-starve unisex bathroom problem
+
