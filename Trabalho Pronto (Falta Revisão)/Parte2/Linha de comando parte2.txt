@@ -1,0 +1,13 @@
+para compilar:
+gcc parte2.c -o parte2 -pthread
+
+Para executar:
+./parte2
+
+
+Trabalho de Sistemas Operacionais
+Parte02 - No-starve Unisex Bathroom Problem
+Grupo:
+Rafael de Farias Lannes
+Patricia Martins Rocca Crestani
+Nicolas Atmatzides

@@ -1,0 +1,13 @@
+para compilar:
+gcc parte1.c -o parte1 -pthread
+
+Para executar:
+./parte1
+
+
+Trabalho de Sistemas Operacionais
+Parte01 - Criação de Threads
+Grupo:
+Rafael de Farias Lannes
+Patricia Martins Rocca Crestani
+Nicolas Atmatzides
