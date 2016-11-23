@@ -53,3 +53,19 @@ Patrícia Martins Rocca Crestani
 Nicolas Nascimento Atmatzides
 No-starve unisex bathroom problem
 
+Texto do email enviado dia 23 nov 2016 para o professor Raphael Guerra (uff):
+Olá Professor , segue em anexo os arquivos do trabalho de Sistemas operacionais. Também segue um arquivo txt com as linhas de comando juntamente com o executável e o código .c .
+
+O Trabalho está dividido em duas partes , a parte1 se refere ao trabalho de implementação de threads e suas ids enquanto a parte2 se refere a implementação do problema de semáforos escolhido: No-starve unisex bathroom problem.
+
+Esperamos que esteja tudo ok e aguardamos uma confirmação de recebimento se possível. 
+
+Obrigado e tenha uma boa tarde.
+
+Trabalho de Sistemas Operacionais
+Parte01 - Criação de Threads
+Parte02 - No-starve unisex bathroom problem
+Grupo:
+Rafael de Farias Lannes 
+Patricia Martins Rocca Crestani 
+Nicolas Atmatzides 
