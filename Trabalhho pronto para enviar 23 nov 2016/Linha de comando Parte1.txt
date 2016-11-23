@@ -1,0 +1,21 @@
+para compilar:
+gcc parte1.c -o parte1 -pthread
+
+Para executar:
+./parte1
+
+
+Trabalho de Sistemas Operacionais
+Parte01 - Criação de Threads
+Grupo:
+Rafael de Farias Lannes - 215083109
+Patricia Martins Rocca Crestani - 215083105
+Nicolas Atmatzides -  215083104
+
+Explicação do Programa (Parte1):
+O programa irá pedir a quantidade de threads desejadas , e criará tais threads.
+Após isso será impresso ambos os ids pthread_self() e gettid().
+Interessante observar que como o programa imprime as threads na ordem , as threads executam uma de cada vez e o ID Pthread_self é o mesmo para todas as threads pois é o id dado pela própria implementação (id do slot na TLS (Thread Local Storage) que a Thread se encontra) enquanto o ID gettid() é o ID dado pelo kernel e é diferente para cada uma delas.
+
+Se fosse abordado de forma diferente , iniciando as threads primeiro e depois esperando finaliza-las (pthread_join()) , As threads seriam executadas e a ordem dependeria do tempo da execução de cada uma delas (uma clara condição de corrida). E nesse caso , ambas as IDS seriam diferentes para todas as threads.
+

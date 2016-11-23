@@ -1,0 +1,23 @@
+para compilar:
+gcc parte2.c -o parte2 -pthread
+
+Para executar:
+./parte2
+
+
+Trabalho de Sistemas Operacionais
+Parte02 - No-starve Unisex Bathroom Problem
+Grupo:
+Rafael de Farias Lannes - 215083109
+Patricia Martins Rocca Crestani - 215083105
+Nicolas Atmatzides -  215083104
+
+Pequena Explicação do programa (parte2):
+O programa irá dizer quando uma moça ou um rapaz entra no banheiro , além disso também indicará o tempo em segundos que cada um vai gastar no banheiro.
+
+Para evitar Starvation , foi adcionado um semáforo extra , antes da "porta" do banheiro , isso impede o Starvation porém não é eficiente quando o sistema está bem cheio , pois na maior parte das vezes , o banheiro vai não vai funcionar em sua capacidade total(que são 3 de acordo com as regras do problema).
+
+O semáforo "Turnstile" "trava" todos as outras threads caso quem chegue nesse semáforo seja do sexo oposto do que está no banheiro , assim evitando starvation. Por exemplo : caso duas moças entrem no banheiro , mas a thread do rapaz chega na "roleta" (turnstile) em seguida , o banheiro será esvaziado e o rapaz irá entrar. 
+
+Sempre que alguém chega nessa "roleta" , o programa indicará que é o próximo.
+Se o gênero do banheiro for o mesmo do sexo da pessoa da roleta e o banheiro não estiver cheio , a pessoa irá entrar no banheiro direto.
